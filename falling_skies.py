@@ -6,7 +6,7 @@ import time
 
 # Set up the screen
 wn = turtle.Screen()
-wn.title("Falling Skies Swapnil Pandey")
+wn.title("Save and feed the deer by Swapnil Pandey")
 wn.bgcolor("black")
 wn.bgpic("background.gif")
 wn.setup(width=800, height=600)
@@ -158,10 +158,3 @@ while True:
         lives = 3
         pen.clear()
         pen.write("Score: {}  Lives: {}".format(score, lives), align="center", font=("Courier", 24, "normal"))
-        
-        
-        
-        
-        
-        
-        
